@@ -12,12 +12,21 @@ public class FirstCode
 	
 	public static void main(String[] args)
 	{
+		//static keyword
+		MethodIntro.show();
+		
 		System.out.println("Hello All!");
 		System.out.println("Welcome to learn Java");
 		System.out.print("Hi");
 		System.out.print("Bye");
 		System.out.println("Welcome to learn Selenium");
 		System.out.println("Bye..");
+		
+		
+		StudentData ss1=new StudentData();
+		ss1.id=111;
+		ss1.name="Kiran";
+		ss1.display();
 	}
 	
 	
