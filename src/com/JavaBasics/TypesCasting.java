@@ -4,6 +4,8 @@ public class TypesCasting {
 /*
  * Type casting is conversion of one type of data into another type
  * 1.Primitive to primitive
+ * 
+ * Wrapper class
  * 2.Primitive to Object
  * 3.Object to Primitive
  * 

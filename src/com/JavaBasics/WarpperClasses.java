@@ -74,11 +74,10 @@ public class WarpperClasses {
 		System.out.println(d1+11.11);//688.8967
 		
 		
-		//string to character conversion
-		
-		
-		
-		
+		//string to character conversion:charat(index)
+		String s5="A";
+		char ch=s5.charAt(0);
+		System.out.println(ch);//'A'
 		
 		/*In Automation we works with String
 		 * Scenario: 
@@ -87,6 +86,31 @@ public class WarpperClasses {
 		 * "5000"===>5000
 		 * test amount 5000 it is less than 10000
 		 */
+		
+		
+		//index:      0     1      2   3
+		String bill="Total amount is 5000";
+		String data=bill.split(" ")[3];//"5000"
+		//string to int
+		int amount=Integer.parseInt(data);//5000
+		
+		if(amount<10000)
+		{
+			System.out.println("Test Pass...As valid amount");
+		}else
+		{
+			System.out.println("Test Fail....As invalid amount");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
