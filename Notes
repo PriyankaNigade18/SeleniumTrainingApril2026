@@ -58,6 +58,16 @@ Static method we declared using static keyword
 Automation reusable method (static method)
 
 
+==========================================================
+Static Keyword
+===============
+static keyword help for memory management
+static keyword we can apply for variable and method
+
+Static Block
+==================
+Any code wrriten in static block will always get first priority
+Static block is used to initialize static variable
 
 
 

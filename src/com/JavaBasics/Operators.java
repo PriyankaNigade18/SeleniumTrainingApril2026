@@ -100,15 +100,38 @@ public class Operators {
 		
 		System.out.println("======Logical operator===========");
 		
+		/*
+		 * condition1 condition2     &&(And)           ||(Or)       !(Not)
+		 *  true        true		   true				true		false
+		 *  true		false		   false			true		false	
+		 *  false		true		   false			true		true
+		 *  false		false		   false			false		true
+		 *  
+		 *  Test Data
+		 * ================
+		 * i=91 j=90 p=q=68 r=77 s=78 t=l=101
+		 * 
+		 */
 		
+		System.out.println("=====&&====");
+		System.out.println(i<t && t==l);//true
+		System.out.println(s>r && j>i);//false
+		System.out.println(p>r && p==q);//false
+		System.out.println(i==j && p>r);//false
 		
+		System.out.println("=====||====");
+		System.out.println(i<t || t==l);//true
+		System.out.println(s>r || j>i);//true
+		System.out.println(p>r || p==q);//true
+		System.out.println(i==j || p>r);//false
 		
+		System.out.println("===!Not===");
 		
+		System.out.println(p==q);//true
+		System.out.println(!(p==q));//false
 		
-		
-		
-		
-		
+		System.out.println(t>l);//false
+		System.out.println(!(t>l));//true
 		
 		
 		
