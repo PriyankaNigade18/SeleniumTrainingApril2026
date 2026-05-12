@@ -19,18 +19,10 @@ public class AccepyInputFromUser_ScannerClass {
 		
 		System.out.println("Hello "+name+" your age is: "+age);
 		
+		//close
+		sc.close();
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 		/*
 		 
 		 
