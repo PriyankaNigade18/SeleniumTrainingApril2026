@@ -1,17 +1,21 @@
 package com.Methods_Constructor;
 
+//this can be used to invoke current class method (implicitly)
+
 public class MethodCallingTechnique 
 {
 	public void m1()
 	{
 		System.out.println("M1 is calling.....");
-		m2();
+		//m2();
+		this.m2();
 	}
 	
 	public void m2()
 	{
 		System.out.println("M2 is calling.....");
-		m3();
+		//m3();
+		this.m3();
 	}
 	
 	public void m3()
