@@ -20,7 +20,7 @@ public class ThisKeywordDemo5
 	ThisKeywordDemo5()
 	{
 		//call Test class constructor:Object
-		Test t1=new Test(this);
+		Test t1=new Test(this);//this keyword as argument
 		
 	}
 	public static void main(String[] args)
