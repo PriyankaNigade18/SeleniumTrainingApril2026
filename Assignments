@@ -9,3 +9,6 @@ Control Flow statement
 -------------------------------
 1.accept number from user and test it is positive or negative number
 2.accept two numbers from users and find greater number
+
+3.Accept number from user and check number is palindrom or not
+4.Accept number from user and check number is armstrong number or not 153
