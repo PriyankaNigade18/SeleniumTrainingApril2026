@@ -176,6 +176,7 @@ public class LoopControlStatement {
 		
 		System.out.println("------DoWhile------");
 		
+		//one time iteration
 		
 		int k=1;
 		
