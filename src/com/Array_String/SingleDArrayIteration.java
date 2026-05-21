@@ -1,35 +1,6 @@
 package com.Array_String;
-/*
- * Array
- * ===========
- * Array is collection of similar type of data/object
- * Array is static data structure & In Java implemented as Object
- * Array size is always fixed
- * 
- * Types Of Array
- * =====================
- * 1.Single Dimension Array(1D)
- * 2.Multi Dimension Array(2D)
- * 
- * Property
- * ===========
- * length
- * 
- * Iterations
- * ==============
- * 1.for loop
- * 2.for-each loop
- * 
- * 
- * Ways to declare Array
- * ==========================
- * 1.Using new keyword
- * 2.Using literal
- * 
- * 
- *  
- */
-public class SingleDArray {
+
+public class SingleDArrayIteration {
 
 	public static void main(String[] args)
 	{
@@ -40,7 +11,7 @@ public class SingleDArray {
 		sid[0]=101;
 		sid[1]=102;
 		sid[2]=103;
-		//sid[3]=104;
+		sid[3]=104;
 		sid[4]=105;
 		
 		System.out.println("Total elements in array: "+sid.length);
@@ -55,6 +26,20 @@ public class SingleDArray {
 		System.out.println(sid[3]);//0
 		System.out.println("done!");
 		
+		System.out.println("-------for loop-----------");
+		
+		for(int i=0;i<sid.length;i++)
+		{
+			System.out.println(sid[i]);
+		}
+		System.out.println("-------forEach loop-----------");
+
+		for(int i:sid)
+		{
+			System.out.println(i);
+		}
+		
+		
 		System.out.println("-------------");
 
 		String location[]=new String[3];
@@ -67,7 +52,19 @@ public class SingleDArray {
 		
 		
 		System.out.println(location[1]);//Mumbai
-		
+			
+		System.out.println("-------for loop-----------");
+
+		for(int i=0;i<location.length;i++)
+		{
+			System.out.println(location[i]);
+		}
+		System.out.println("-------forEach loop-----------");
+
+		for(String i:location)
+		{
+			System.out.println(i);
+		}
 		System.out.println("-------------");
 		
 		double marks[]=new double[3];
@@ -79,6 +76,17 @@ public class SingleDArray {
 		
 		System.out.println("Total Marks: "+(marks[0]+marks[1]+marks[2]));
 		
+		System.out.println("-------for loop-----------");
+		for(int i=0;i<marks.length;i++)
+		{
+			System.out.println(marks[i]);
+		}
+		System.out.println("-------forEach loop-----------");
+
+		for(double i:marks)
+		{
+			System.out.println(i);
+		}
 		
 		
 		System.out.println("------Literal Way----------");
@@ -89,6 +97,18 @@ public class SingleDArray {
 		System.out.println(evenNum[3]);//24
 		//System.out.println(evenNum[6]);//ArrayIndexOutOfBoundsException
 		
+		System.out.println("-------for loop-----------");
+
+		for(int i=0;i<evenNum.length;i++)
+		{
+			System.out.println(evenNum[i]);
+		}
+		System.out.println("-------forEach loop-----------");
+
+		for(int i:evenNum)
+		{
+			System.out.println(i);
+		}
 		System.out.println("-------------------");
 
 		//In Real time Real data we store as Object type
@@ -99,42 +119,18 @@ public class SingleDArray {
 		System.out.println(studentData[3]);
 		//System.out.println(studentData[9]);//ArrayIndexOutOfBoundsException
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("-------for loop-----------");
+			
+		for(int i=0;i<studentData.length;i++)
+		{
+			System.out.println(studentData[i]);
+		}
+		System.out.println("-------forEach loop-----------");
+
+		for(Object i:studentData)
+		{
+			System.out.println(i);
+		}
 		
 
 	}
