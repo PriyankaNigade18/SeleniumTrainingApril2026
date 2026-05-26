@@ -103,15 +103,60 @@ public class StringMethods {
 		
 		System.out.println(s10.replaceAll("testing","#####"));
 		
+		System.out.println("----------------");
+
+		//isEmpty():Returns true if, and only if, length() is 0.
+		
+		String s11="";
+		System.out.println(s11.length());//0
+		System.out.println(s11.isEmpty());//true
+		
+		//isBlank():Returns true if the string is empty or contains only white space codepoints,otherwise false.
+		String s12=" ";
+		System.out.println(s12.length());//1
+		System.out.println(s12.isBlank());//true
+		
+		//toCharArray():Converts this string to a new character array.
+		String s13="Hello All";
+		char arr[]=s13.toCharArray();
+		
+		for(char i: arr)
+		{
+			System.out.println(i);
+		}
+		
+		System.out.println("----------------");
+		
+		//split(regexp):Splits this string around matches of the given regular expression. 
+		//regexp:Some Pattern 
+		
+		String tools="Selenium,Cypres,Appium,Playwright,Postman";
+		//index:        0         1    2       3         4
+		System.out.println(tools);
+		
+		String arr1[]=tools.split(",");
+		
+		for(String i: arr1)
+		{
+			System.out.println(i);
+		}
+		
+		//playwright
+		String latestTool=tools.split(",")[3];
+		System.out.println(latestTool);
 		
 		
-		//isEmpty()
+		String date="May 2026";
+		String month=date.split(" ")[0];
+		String year=date.split(" ")[1];
 		
-		//isBlank()
+		System.out.println(month);
+		System.out.println(year);
 		
-		//toCharArray()
 		
-		//split()
+		
+		
+		
 		
 		
 		
