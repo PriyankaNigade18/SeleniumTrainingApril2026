@@ -12,3 +12,8 @@ Control Flow statement
 
 3.Accept number from user and check number is palindrom or not
 4.Accept number from user and check number is armstrong number or not 153
+
+
+Assignment on Polymorphism 
+---------------------------
+Design a logic for payment gateway process for method overloding
