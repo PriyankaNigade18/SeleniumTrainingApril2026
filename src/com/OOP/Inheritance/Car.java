@@ -19,4 +19,8 @@ public class Car extends Vehical //Multi level
 		System.out.println("Car.....stop()");
 	}
 
+	public void price()
+	{
+		System.out.println("Car.....1L");
+	}
 }

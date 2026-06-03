@@ -9,5 +9,11 @@ public class BMW extends Car //Single level
 	{
 		System.out.println("BMW.....autoEngine()");
 	}
+	
+	@Override
+	public void price()
+	{
+		System.out.println("BMW.....60L");
+	}
 
 }

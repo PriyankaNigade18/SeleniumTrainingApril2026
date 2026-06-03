@@ -10,6 +10,7 @@ public class TestCar {
 		c1.refule();//individual
 		c1.stop();//individual
 		c1.breakFeature();
+		c1.price();
 		
 		System.out.println("-------------");
 		
@@ -21,6 +22,7 @@ public class TestCar {
 		b1.refule();//inherited
 		b1.stop();//inherited
 		b1.breakFeature();
+		b1.price();
 		
 		System.out.println("-------------");
 		
@@ -30,6 +32,7 @@ public class TestCar {
 		a1.refule();//inherited
 		a1.stop();//inherited
 		a1.breakFeature();
+		a1.price();
 		
 		
 		System.out.println("-------------");
@@ -41,6 +44,7 @@ public class TestCar {
 		c2.refule();//individual
 		c2.stop();//individual
 		c2.breakFeature();
+		c2.price();
 		
 		System.out.println("-------------");
 
@@ -49,6 +53,7 @@ public class TestCar {
 		c3.refule();//individual
 		c3.stop();//individual
 		c3.breakFeature();
+		c3.price();
 		
 		
 		
