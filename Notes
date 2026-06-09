@@ -101,7 +101,8 @@ Ans: Using final keyword.
 
 Data Abstraction
 ================
-It is process of hiding implementation details of software from end user.
+It is process of hiding implementation details of software from end user, and providing
+relevant features to the user
 
 Abstraction achive using
 ------------------------------
