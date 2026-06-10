@@ -1,0 +1,85 @@
+
+
+Selenium WebDriver
+===================================
+Selenium WebDriver is an API for WebUi automation test
+
+Selenium WebDriver is an interface through which we can automate any web application
+
+Features
+===========
+-Automate web application
+-Support multiple browser
+-support multiple platform(windows/linux/mac)
+-Support multiple programming language
+-Integrate selenium with other open source framework
+-This is open source and free tool
+-Mobile app testing with different api(Appium)
+
+Limitations
+=====================
+- Window application we can not automate using selenium
+- Automation for image like bar code reader,otp automation,captcha not possible with selenium
+
+
+
+Selenium Setup
+===================
+1.In Java Project
+-----------------------
+1.create java project
+2. download selenium server jar file www.selenium.dev
+3. right click on project --->build path--->Configure build path-->
+libraries--->Class path--->add external jars--->select seleniumsever jar
+-->apply --->apply & close
+
+
+
+2.In Maven Project
+=========================
+What is Maven?
+------------------
+Maven is build management and project management tool
+Maven is followed by developers and testers
+Maven is developed by Apache foundation
+
+Apache give two types repository for maven
+--------------------------------
+1.Local Repo
+----------------------
+c://user//piyun/.m2 folder/maven local repo
+
+2.Remote Repo
+https://mvnrepository.com/
+
+
+In Maven POM.xml file
+=============================
+This file known as project object model which configuration file for maven project
+In this we can add dependecncies,build,external plugin
+
+
+Dependency is library file/execution file
+
+<project>
+<dependencies>
+	dependecy for required framework
+</dependencies>
+</project>
+
+1.create simple maven project
+2.attached dependency in pox.xml file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
