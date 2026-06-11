@@ -1,6 +1,6 @@
 package com.OOP.DataAbstraction;
 
-public class Axies implements RBI
+public class Axis implements RBI
 {
 	public void custData()
 	{

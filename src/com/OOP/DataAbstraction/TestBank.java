@@ -14,7 +14,7 @@ public class TestBank {
 		
 		
 		System.out.println("-----------");
-		Axies a1=new Axies();
+		Axis a1=new Axis();
 		a1.custData();//individual
 		a1.deposite();//inherited abstract method
 		a1.withdraw();//inherited abstract method
@@ -28,7 +28,7 @@ public class TestBank {
 		r1.rateOfInterest();//individual
 		
 		System.out.println("-----------");
-		RBI r2=new Axies();
+		RBI r2=new Axis();
 		r1.deposite();//individual
 		r2.withdraw();//individual
 		r2.rateOfInterest();//individual
