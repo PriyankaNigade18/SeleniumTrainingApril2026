@@ -42,6 +42,8 @@ public class ArrayListDemo1 {
 		ls.add(400);
 		ls.add(200);
 		ls.add(500);
+		ls.add(null);
+		ls.add(null);
 		System.out.println(ls);
 		
 		System.out.println("Total Elements are: "+ls.size());
