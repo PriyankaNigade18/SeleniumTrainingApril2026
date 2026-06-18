@@ -70,6 +70,81 @@ Dependency is library file/execution file
 1.create simple maven project
 2.attached dependency in pox.xml file
 
+==================================================
+Selenium Exception
+------------------------
+1.InvalidArgumentException: invalid argument
+When we provide incomplete url then this exception throws by Selenium
+Note: Every url should be pass with protocol
+
+
+
+
+
+WebDriver Browser Commands/Methods
+----------------------------------------
+1.get(url): Open application within browser
+2.getTitle(): returns String title of the current page
+3.getCurrentUrl(): Returns string current page Url
+4.getPageSource(): to get the page source
+5.close():close the current active session
+6.quit(): close all the sessions which opens through selenium
+
+Window Handling
+-----------------------
+6.getWindowHandle():returns string as Current window Id
+7.getWindowHandles():returns Set<String> to get all open windows id
+
+============================================================
+WebDriver Navigation commands/Methods
+------------------------------------------
+Selenium WebDriver provided Navigation interface which has methods
+to navigate in between application or pages
+
+navigate() returns Navigation interface object
+
+1.to(url):In Same browserSession to navigate other application we use to(url)
+-----------------------------
+driver.navigate().to(url)
+
+2.back()
+-------------------
+driver.navigate().back()
+
+3.forward()
+------------------
+driver.navigate().forward()
+
+4.refresh()
+-------------------
+driver.navigate().refresh()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

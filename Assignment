@@ -1,0 +1,9 @@
+
+Assignment1:
+Write automation script to navigate https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+application and get the title,current url ,page sourse and print in the console
+
+Assignment2:
+Write automation script to navigate https://www.naukri.com/ application 
+and get the title,current url ,page sourse and print in the console
+
