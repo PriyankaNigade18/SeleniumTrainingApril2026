@@ -119,6 +119,124 @@ driver.navigate().forward()
 -------------------
 driver.navigate().refresh()
 
+===============================================================
+
+How to automate any WebElement?
+===================================
+What is WebElement?
+---------------------------------
+Every GUI element is called Webelement(ex. textbox,link,checkbox,button,radiobutton,dropdown...etc)
+
+In Selenium WebElement is an Interface
+
+1.First Identify WebElement From the webpage
+2.Perform action on Webelement
+
+
+1.First Identify WebElement From the webpage
+------------------------------------------------------
+Selenium Identify any weblement based on Locator
+
+What is Locator?
+-----------------------
+Locator is address of that weblement
+
+
+Selenium Support total 8 locators
+--------------------------------------
+1.By id
+2.By name
+3.By className
+4.By tagName
+5.By linkText
+6.By partialLinkText
+
+Dynamic WebElements
+
+7.By cssSelector
+8.By xpath
+
+-----------------------------------------------
+In Version 4 Selenium Support Relative locator
+--------------------------------
+leftOf
+rightOf
+Before
+after
+nearOf
+
+
+----------------------------------------------
+Selenium Identify Webelement using these methods
+
+1.findElement()
+------------------
+- findElement() identify sigle webelement
+- findElement() return single WebElement interface object
+- findElement() fail to identify element then it throws exception NoSuchElementException
+
+2.findElements()
+----------------------
+
+
+------------------------------------------------------------
+2.Perform action
+------------------
+textbox,searchbox,input--->type/enter--->sendKeys("keyword",Keys.Keyboard Key)
+button,checkbox,link,radiobutton------->click-----click()
+To clear text: clear()
+To select dropdown element: Select class
+
+======================================
+HyperLink Automation
+============================
+<a id="SignIn" name="sign-in-link">Sign In</a>
+								<a>Link Text</a>
+
+1.By linkText(): full link text match
+--------------------------------------------
+driver.findElement(By.linkText("Sign In"))
+
+2.By partialLinkText: partial link text match
+------------------------------------------------
+driver.findElement(By.partialLinkText("In"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
