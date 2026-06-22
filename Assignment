@@ -7,3 +7,44 @@ Assignment2:
 Write automation script to navigate https://www.naukri.com/ application 
 and get the title,current url ,page sourse and print in the console
 
+Assignment 3: Browser Commands
+Objective
+
+Practice browser commands in Selenium.
+
+Tasks
+Launch Chrome Browser.
+Open https://www.selenium.dev/
+Print the page title.
+Print the current URL.
+Maximize the browser window==>(driver.manage().window().maximize())
+Verify whether the page title contains "Selenium".
+Refresh the page.
+Close the browser.
+-----------------------------------------------------------------
+Assignment 4: Navigation Commands
+Objective
+
+Practice Selenium Navigation methods.
+
+Tasks
+Open https://www.demoblaze.com
+Navigate to https://demoqa.com
+Navigate to https://automationexercise.com
+Click browser Back button using Selenium.
+Verify the URL belongs to DemoQA.
+Click browser Forward button.
+Verify the URL belongs to Automation Exercise.
+Refresh the page.
+Print the title after refresh.
+
+---------------------------------------------------------------------------
+Assignment 5: Login Functionality Testing – The Internet Herokuapp
+
+Application URL:https://the-internet.herokuapp.com/login
+
+Test Data
+Valid Credentials
+Username: tomsmith
+Password: SuperSecretPassword!
+----------------------------------------------------------------------

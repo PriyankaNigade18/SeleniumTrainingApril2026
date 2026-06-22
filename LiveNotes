@@ -77,7 +77,8 @@ Selenium Exception
 When we provide incomplete url then this exception throws by Selenium
 Note: Every url should be pass with protocol
 
-
+2.InvalidSelectorException: Compound class names not permitted
+When we try ti identify element with multiple class name then this exception you will get
 
 
 
@@ -177,7 +178,9 @@ Selenium Identify Webelement using these methods
 
 2.findElements()
 ----------------------
-
+- findElements() identify multiple similar type of elements
+- findElements() return List<WebElement>
+- If element not found then findElements() never throws any exception
 
 ------------------------------------------------------------
 2.Perform action
@@ -200,6 +203,121 @@ driver.findElement(By.linkText("Sign In"))
 2.By partialLinkText: partial link text match
 ------------------------------------------------
 driver.findElement(By.partialLinkText("In"))
+
+
+=====================================================
+ClassName
+------------------
+<button id="submit-id"  class="btn btn-default btn-primary">Submit</button>
+
+ class="btn btn-default btn-primary"
+		1       2          3
+		
+	InvalidSelectorException: Compound class names not permitted
+
+Solution
+-----------------
+1.Identify unique class name
+2.use one class name to locate the element
+
+==============================================
+synchronization Issue
+---------------------------
+Time mapping issue between application and tool is synchronization issue
+
+Selenium handle this using Dynamic Waits
+
+Types
+-------------
+1.Implicit Wait
+-------------------
+- Implicit wiat is Global wait as it is applicable for entire script/each element
+- Implicit wait you can immediately after driver session 
+- If implicit wait is set to 10sec and element found in 6sec then remaining 4sec script will continue with element
+- Default timeout for Implicit wait is 0sec
+SyntaX:
+============
+driver.manage().timeouts().implcitlyWait(Duration.ofSeconds(10));
+
+
+2.Explicit Wait
+------------------
+- Explicit wait it is applicable for single weblement
+- Explicit wait we can add based element conditions
+			
+Two ways to achieve explicit wait in Selenium
+--------------------------
+1.WebDriverWait class
+2.FluentWait class
+
+WebDriverWait extends FluentWait implements Wait(I)
+
+=========================================================================
+tagName Locator
+======================
+Number of input boxes
+Number of checkbox
+Number of Links
+Number of buttons
+
+Here as tagname matches with multiple elements 
+so we use driver.findElements()
+
+================================================
+WebElement(Interface) commands
+---------------------------------
+Actions
+---------------
+click()
+sendKeys()
+clear()
+
+Validations
+------------------
+isDisplayed()
+isEnabled()
+isSelected()
+
+To get the visible text of any element/ html inner text
+----------------------------------------------------------
+getText():String
+
+To get the attribute value 
+--------------------------------
+getDomAttribute("attributeName"): returns "value"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
