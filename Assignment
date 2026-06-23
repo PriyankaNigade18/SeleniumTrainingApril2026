@@ -48,3 +48,31 @@ Valid Credentials
 Username: tomsmith
 Password: SuperSecretPassword!
 ----------------------------------------------------------------------
+Assignment 6: CSS Selector Challenge
+URL
+https://the-internet.herokuapp.com/login
+The Internet Login Page
+
+Tasks
+Write CSS Selectors for:
+
+Element	Condition
+Username Textbox	Attribute starts with "user"
+Password Textbox	Attribute ends with "word"
+Login Button		Class contains "radius"
+Flash Message		ID starts with "flash"
+Logout Button		Class contains "button"
+
+-------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+

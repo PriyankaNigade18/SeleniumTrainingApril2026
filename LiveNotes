@@ -285,6 +285,157 @@ getText():String
 To get the attribute value 
 --------------------------------
 getDomAttribute("attributeName"): returns "value"
+===========================================================
+Dynamic Locators
+---------------------
+By cssSelector
+======================
+Css is cascaded style sheet , language which is used to design and provide styles
+to webelement
+
+-CssSelector is Locator which will identify element based css property
+-cssSelector can travel in one direction (Parent to child node) and that is 
+a reson it is faster then xpath
+-cssSelector does not support methods
+
+Syntax:
+--------------
+1.tagname with id
+---------------------
+Syntax:
+-----------
+tagname#id
+
+Example
+---------------
+<input type="text" id="input-email" class="form-control">
+
+input#input-email
+Or
+#input-email
+=================================
+
+2.tagname with attribute
+--------------------------
+Syntax:
+-------------
+tagname[attribute='value']
+
+Example
+------------
+<input type="password" name="password" placeholder="Password">
+
+input[placeholder='Password']
+
+========================================
+3.tagname with className
+-----------------------------
+Syntax:
+------------
+tagname.className
+
+Example:
+------------
+<input type="submit" value="Login" class="btn btn-primary">
+
+input.btn.btn-primary
+
+4.tagname with id,attribute and className
+-------------------------------------
+Syntax
+-------------
+tagname#id.className[attribute='value']
+
+Example:
+----------------
+<input type="submit" value="Login" class="btn btn-primary">
+
+input[type='submit'].btn.btn-primary
+================================================================
+
+Css with special symbol
+----------------------------------
+1.* means contains()
+---------------------------
+To match element value partially we use *
+
+Syntax:
+---------------
+tagname[attribute*='partial value']
+
+Example
+------------
+<input id="twotabsearchtextbox">
+
+
+input[id*='searchtext']
+
+==============================================
+
+2.^ means Startswith('prefix')
+------------------------------
+Syntax:
+-----------
+tagname[atrribute^='prefix value']
+
+Example
+------------
+<input id="twotabsearchtextbox">
+
+input[id^='two']
+==============================================
+
+3.$ means endsWith
+--------------------
+Syntax:
+tagname[attribute$='suffix value']
+
+Example
+------------
+<input id="twotabsearchtextbox">
+
+input[id$='box']
+
+
+Css parent to child
+---------------------------
+1. white space
+
+2. >
+
+
+css with indexing
+-------------------------
+:nth-child(index)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
