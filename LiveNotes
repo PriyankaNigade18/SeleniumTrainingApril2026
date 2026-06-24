@@ -396,17 +396,32 @@ Example
 
 input[id$='box']
 
-
+=======================================================
 Css parent to child
 ---------------------------
-1. white space
+1. white space: indirect + direct child
+------------------------------
+parenttagname childtag name
 
-2. >
+2. > : direct child element
+-------------------------
+parenttagname>childtagname
+div.list-group>a
 
 
 css with indexing
 -------------------------
 :nth-child(index)
+
+Syntax
+---------------
+parenttagname:nth-child(index)
+
+-==============================================
+Xpath
+==================
+
+
 
 
 
