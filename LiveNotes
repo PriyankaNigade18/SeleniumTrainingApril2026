@@ -420,6 +420,140 @@ parenttagname:nth-child(index)
 -==============================================
 Xpath
 ==================
+-Xpath is path of element from html or xml document
+-Xpath identify element directly from DOM(Document object model)
+-Xpath support mulyiple methods
+-Xpath support axies based on relation we can identify element
+----html DOM-------------
+
+<html>------------root element
+<head>
+</head>
+
+<body>
+<input>
+<button>-------------element
+<a>
+</body>
+</html>
+
+-----------------------------------------------------
+Xpath Types
+=============
+1.Absolute Xpath(full xpath)
+-----------------------
+- Absolute xpath identify element from Root node
+- Absolute xpath starts with '/'
+
+/html/body/div[2]/div/div/div/div[2]/div/form/div[1]/input
+
+2.Relative xpath(Partial xpath)
+-----------------------------------------------
+- Relative xpath identify element based on its relative property
+- Relative xpath starts with '//'
+
+//*[@id="input-email"]
+
+* means find any tag whose id is input-email
+
+Syntax
+==========
+//tagname[@attribute='value']
+
+------------------------------------------------------------------------
+Xpath with Operators
+============================
+1.and (&&)
+-------------------
+Syntax:
+--------------
+//tagname[@attribute1='value' and @attribute2='value']
+
+2.or (||)
+Syntax:
+--------------
+//tagname[@attribute1='value' or @attribute2='value']
+
+--------------------------------------------------------------
+
+Xpath with Indexing & position()=index
+------------------------------------
+Syntax
+==============
+ 1. (xpath)[index]
+
+ (//input[@class='form-control'])[3]   1 of 1
+  
+  2. position()
+  Syntax
+==================
+(xpath)[postion()=index]
+ (//input[@class='form-control'])[position()=4]
+ 
+============================================================
+
+Xapth Methods
+====================
+1.text()
+
+syntax:
+========
+//tagname[text()='text']
+
+
+
+
+Xpath Axies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

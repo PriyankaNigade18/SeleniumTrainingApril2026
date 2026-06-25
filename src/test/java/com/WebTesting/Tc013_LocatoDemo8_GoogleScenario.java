@@ -21,6 +21,16 @@ public class Tc013_LocatoDemo8_GoogleScenario {
 		//enter keyword into search box
 		driver.findElement(By.id("APjFqb")).sendKeys("Jenkins");
 		
+		
+		//direct parent child locator used with">" sign
+//		List<WebElement>allOptions=driver.findElements(By.cssSelector("ul[role='listbox']>li"));
+//		System.out.println(allOptions.size());
+//		
+//		
+//		driver.findElement(By.cssSelector("ul[role='listbox']>li:nth-child(7)")).click();
+//				
+		
+		
 
 		List<WebElement> allOptions=driver.findElements(By.cssSelector("div[class='OBMEnb']>ul>li"));
 		System.out.println("Total options are: "+allOptions.size());
@@ -28,7 +38,13 @@ public class Tc013_LocatoDemo8_GoogleScenario {
 		for(WebElement i: allOptions)
 		{
 			System.out.println(i.getText());
+			if(i.getText().contains("jenkins pipeline"))
+			{
+				i.click();
+				break;
+			}
 		}
+		
 		
 		
 		
