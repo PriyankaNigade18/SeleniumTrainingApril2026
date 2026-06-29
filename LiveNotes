@@ -495,15 +495,83 @@ Syntax
 Xapth Methods
 ====================
 1.text()
+------------------------
+-this method identify element based on visible text
+-this method will not ignore any white space before and after text
+-If text is available with white space then text() will not work
+
 
 syntax:
 ========
 //tagname[text()='text']
 
 
+2.normalize-space()
+--------------------------
+-this method identify element based on visible text
+-If text is available with white space then normalize space() ignore white
+space and match text (like trim() from string)
+
+Syntax:
+==============
+//tagname[normalize-space()='text']
 
 
+3.contains():partial match
+---------------------------
+Syntax:
+===============
+//tagname[contains(@attribute,'partial value')]
+
+OR
+
+//tagname[contains(text(),'partial text')]
+//tagname[contains(normalize-space(),'partial text')]
+
+
+4.starts-with():prefix value 
+-------------------------
+Syntax:
+===============
+//tagname[starts-with(@attribute,'prefix value')]
+
+OR
+
+//tagname[starts-with(text(),'prefix text')]
+//tagname[starts-with(normalize-space(),'prefix text')]
+
+=================================================
 Xpath Axies
+=================
+
+
+
+
+==============================================
+Relative Locators
+========================
+
+================================================
+Installation of TestNG
+
+
+1.Dropdown automation
+
+2.Calendar/datePicker
+
+3.windowHandling
+
+4.alert
+
+5.frame
+
+6.Webtable
+
+
+
+
+
+
 
 
 
