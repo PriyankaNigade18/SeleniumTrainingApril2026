@@ -543,7 +543,64 @@ OR
 =================================================
 Xpath Axies
 =================
+1.ancestor
+Syntax
+-------------
+//tagname[@attribute='value']//ancestor::ancestor tagname
 
+2.parent
+Syntax
+-------------
+//tagname[@attribute='value']//parent::parent tagname
+
+3.child
+Syntax
+-------------
+//tagname[@attribute='value']//child::child tagname
+
+4.following
+Syntax
+-------------
+//tagname[@attribute='value']//following::follwing element tagname
+
+5.following-sibling
+Syntax:
+---------------
+//tagname[@attribute='value']//following-sibling::follwing sibling element tagname
+
+6.preceding
+Syntax
+-------------
+//tagname[@attribute='value']//preceding::preceding element tagname
+
+7.preceding-sibling
+
+Syntax
+-------------
+//tagname[@attribute='value']//preceding-sibling::preceding sibling element tagname
+
+
+Example
+===========
+
+<tbody>----------------grand parent : ancestor
+
+<tr>--------------------------parent
+ 
+         <td>4</td>---------------------preceding-sibling
+
+          <td>John</td>--------------------element
+
+          <td>Robinson</td>--------------------following-sibling
+
+          <td>jr5527</td>--------------------following-sibling
+ 
+         <td>--------------------following-sibling
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a role="button" href="#myModal" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+
+        </tr>
 
 
 
