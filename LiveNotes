@@ -607,23 +607,62 @@ Example
 ==============================================
 Relative Locators
 ========================
-
+1.above()
+2.below()
+3.near()
+4.toLeftOf()
+5toRightOf()
 ================================================
 Installation of TestNG
-
-
+=====================================
 1.Dropdown automation
+-------------------------------
+
 
 2.Calendar/datePicker
 
-3.windowHandling
+3.JavascriptExecuterInterface
 
-4.alert
+4.windowHandling
 
-5.frame
+5.alert
 
-6.Webtable
+6.frame
 
+7.Webtable
+
+8.Actions Class
+
+9.Capabilities
+
+10.Waits in Selenium
+
+11.Special Scenarios
+------------------------
+Shadow dom automation
+SVG automation
+Broken link
+
+TestNG framework
+--------------------
+
+
+
+Hybrid Framework
+-----------------------
+
+
+Devops
+------------
+
+
+Cucumber Framework
+--------------------
+
+
+
+Design Cucumber framework
+----------------------------------
 
 
 
