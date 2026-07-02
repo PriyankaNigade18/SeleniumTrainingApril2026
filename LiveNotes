@@ -617,6 +617,40 @@ Installation of TestNG
 =====================================
 1.Dropdown automation
 -------------------------------
+1.Dropdown based on <Select> tag
+----------------------------------------
+Selenium automate select tag based dropdown using Select class
+
+Select sc=new Select(dropdown element);
+
+To test dropdown support multiselection
+isMultiple():boolean
+
+To select single option from dropdown
+---------------------------------------------
+1.selectByVisibleText("text"):extra visibility check selenium has added afterversion 4.14 
+First confirm that dropdown is present and displayed in DOM, if it is hided by any other element
+then this methos will not work
+
+2.selectByValue("value")
+3.selectByIndex(index)
+
+To get all options from dropdown
+getOptions(): List<WebElement>
+
+
+
+
+
+
+
+
+
+2.Bootstrap/Ausuggesion/javascript dropdown
+
+
+
+
 
 
 2.Calendar/datePicker
