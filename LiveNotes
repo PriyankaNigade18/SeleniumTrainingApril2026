@@ -638,16 +638,11 @@ then this methos will not work
 To get all options from dropdown
 getOptions(): List<WebElement>
 
-
-
-
-
-
-
-
-
 2.Bootstrap/Ausuggesion/javascript dropdown
+--------------------------------------------------
+The way user interact do automation in same way
 
+===================================================
 
 
 

@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
+import com.WebTesting.Generic.ElementUtil;
+
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class Tc024_DropdownAutomation_SelectBased_Amazon {
@@ -24,6 +26,9 @@ public class Tc024_DropdownAutomation_SelectBased_Amazon {
 	   //find the dropdown element
 	   WebElement dropDownEle=driver.findElement(By.id("searchDropdownBox"));
 	   
+	   ElementUtil.selectBasedDropdownTest(dropDownEle,"Prime Video");
+	   
+	   /*
 	   //<select>
 	   Select sc=new Select(dropDownEle);
 	   System.out.println("Is dropdown is visible in DOM/it not hided inside DOM: "+dropDownEle.isDisplayed());
@@ -50,7 +55,7 @@ public class Tc024_DropdownAutomation_SelectBased_Amazon {
 	   }
 	   
 	   
-	   
+	   */
 	   
 	   
 	   
