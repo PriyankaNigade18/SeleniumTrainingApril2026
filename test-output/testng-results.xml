@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-03T12:51:51 IST" name="Default suite" finished-at="2026-07-03T12:51:56 IST" duration-ms="4877">
+  <suite started-at="2026-07-06T13:01:04 IST" name="Default suite" finished-at="2026-07-06T13:01:12 IST" duration-ms="7669">
     <groups>
     </groups>
-    <test started-at="2026-07-03T12:51:51 IST" name="Default test" finished-at="2026-07-03T12:51:56 IST" duration-ms="4877">
-      <class name="com.WebTesting.Tc028_BootstrapDropdown_RedBus">
-        <test-method signature="testDropdown()[pri:0, instance:com.WebTesting.Tc028_BootstrapDropdown_RedBus@2a4fb17b]" started-at="2026-07-03T12:51:51 IST" name="testDropdown" finished-at="2026-07-03T12:51:56 IST" duration-ms="4824" status="PASS">
+    <test started-at="2026-07-06T13:01:04 IST" name="Default test" finished-at="2026-07-06T13:01:12 IST" duration-ms="7669">
+      <class name="com.WebTesting.Tc031_JavascriptExecutorUseCases">
+        <test-method signature="testUseCases()[pri:0, instance:com.WebTesting.Tc031_JavascriptExecutorUseCases@4135c3b]" started-at="2026-07-06T13:01:04 IST" name="testUseCases" finished-at="2026-07-06T13:01:12 IST" duration-ms="7627" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDropdown -->
-      </class> <!-- com.WebTesting.Tc028_BootstrapDropdown_RedBus -->
+        </test-method> <!-- testUseCases -->
+      </class> <!-- com.WebTesting.Tc031_JavascriptExecutorUseCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

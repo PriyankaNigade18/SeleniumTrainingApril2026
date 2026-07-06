@@ -643,14 +643,20 @@ getOptions(): List<WebElement>
 The way user interact do automation in same way
 
 ===================================================
-
-
-
-
-
 2.Calendar/datePicker
-
+=================================
+logic
+===================================
 3.JavascriptExecuterInterface
+==================================
+UseCases
+=========
+1.To get the title of application
+2.To refresh webpage
+3.To scroll the page
+4.To enter text into element
+5.To click on element
+6.To automate hidden element
 
 4.windowHandling
 
