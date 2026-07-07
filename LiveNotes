@@ -657,8 +657,18 @@ UseCases
 4.To enter text into element
 5.To click on element
 6.To automate hidden element
-
+7.To automate disabled element
+=======================================
 4.windowHandling
+====================
+Single Window & Multiple Windows
+--------------------------------
+getWindowHandle()
+getWindowHandles()
+switchTo()
+
+How to create new Tab/new Window
+
 
 5.alert
 

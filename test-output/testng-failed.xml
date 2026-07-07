@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.Tc030_CalendarAutomation">
+      <class name="com.WebTesting.Tc033_HiddenElementAutomation">
         <methods>
-          <include name="testCalendar"/>
+          <include name="testHiddenElement"/>
         </methods>
-      </class> <!-- com.WebTesting.Tc030_CalendarAutomation -->
+      </class> <!-- com.WebTesting.Tc033_HiddenElementAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
