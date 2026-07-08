@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-07T12:48:35 IST" name="Default suite" finished-at="2026-07-07T12:48:42 IST" duration-ms="7343">
+  <suite started-at="2026-07-08T13:06:18 IST" name="Default suite" finished-at="2026-07-08T13:06:21 IST" duration-ms="3372">
     <groups>
     </groups>
-    <test started-at="2026-07-07T12:48:35 IST" name="Default test" finished-at="2026-07-07T12:48:42 IST" duration-ms="7343">
-      <class name="com.WebTesting.Tc033_HiddenElementAutomation">
-        <test-method signature="testHiddenElement()[pri:0, instance:com.WebTesting.Tc033_HiddenElementAutomation@2a65fe7c]" started-at="2026-07-07T12:48:35 IST" name="testHiddenElement" finished-at="2026-07-07T12:48:42 IST" duration-ms="7295" status="PASS">
+    <test started-at="2026-07-08T13:06:18 IST" name="Default test" finished-at="2026-07-08T13:06:21 IST" duration-ms="3372">
+      <class name="com.WebTesting.Tc037_NewTab_NewWindow">
+        <test-method signature="testTabWindow()[pri:0, instance:com.WebTesting.Tc037_NewTab_NewWindow@2a65fe7c]" started-at="2026-07-08T13:06:18 IST" name="testTabWindow" finished-at="2026-07-08T13:06:21 IST" duration-ms="3333" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHiddenElement -->
-      </class> <!-- com.WebTesting.Tc033_HiddenElementAutomation -->
+        </test-method> <!-- testTabWindow -->
+      </class> <!-- com.WebTesting.Tc037_NewTab_NewWindow -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

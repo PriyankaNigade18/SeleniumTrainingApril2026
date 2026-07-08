@@ -663,13 +663,22 @@ UseCases
 ====================
 Single Window & Multiple Windows
 --------------------------------
-getWindowHandle()
-getWindowHandles()
-switchTo()
+getWindowHandle(): To get current active window SessionId
+getWindowHandles(): It returns Set<String> and all open windows Id
+
+switchTo(): target(window/alert/frame)
 
 How to create new Tab/new Window
+---------------------------------------
+In selenium version 4 we have new method newWindow():WebDriver 
+
+WebDriver newTab=driver.switchTo().newWindow(WindowType.TAB);
 
 
+WebDriver new=driver.switchTo().newWindow(WindowType.WINDOW);
+
+
+=============================================================
 5.alert
 
 6.frame
