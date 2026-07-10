@@ -680,8 +680,45 @@ WebDriver new=driver.switchTo().newWindow(WindowType.WINDOW);
 
 =============================================================
 5.alert
+=================
+What is alert?
+-------------------
+While submitting form or perform some action we might get window from app/browser
+for confirmation that is called Alert window
+- Selenium wont direct handle it we need to write automation script to handle alert
+- Selenium support Alert interafce using this interface we can automate alert
+- selenium driver has to switch to alert window then as per type of alert we can handle it
 
+Types Of alert
+=================
+1.Simple alert with (OK button)
+2.Confirmation Alert (Ok +Cancel)
+3.Prompt alert
+
+Alert interface provides 4 methods
+----------------------------------------
+1.To get the text of alert                     : getText()
+2.To simulate action of OK button              : accept()
+3.To simulate action of cancel button          : dismiss()
+4.To Handle prompt alert where we send the data: sendKeys()
+
+
+If alert is not handled then you will get exception
+---------------------------------------------------
+UnhandledAlertException: unexpected alert open: {Alert text : Please enter your password}
+
+------------------------------------
+How to automate any authentication popup?
+------------------------------------------
+Some app required username and password to pass which is called authentication popup
+In selenium we can use some hack
+
+https://username:password@www.gooogle.com
+
+======================================================
 6.frame
+====================
+
 
 7.Webtable
 
