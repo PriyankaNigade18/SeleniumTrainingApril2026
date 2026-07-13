@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.Tc040_AuthenticationPopupAutomation">
+      <class name="com.WebTesting.Tc042_FrameAutomation">
         <methods>
-          <include name="testAuthPopup"/>
+          <include name="testFrame"/>
         </methods>
-      </class> <!-- com.WebTesting.Tc040_AuthenticationPopupAutomation -->
+      </class> <!-- com.WebTesting.Tc042_FrameAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

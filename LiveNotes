@@ -718,8 +718,24 @@ https://username:password@www.gooogle.com
 ======================================================
 6.frame
 ====================
+-One html document embeds into another html document then that is frame
+-deleveloper design it <frame> or <iframe> inline frame
 
+Identify single frame
+---------------------
+driver.switchTo().frame(index);
+driver.switchTo().frame(id/name);
+driver.switchTo().frame(WebElement);
 
+To reach to main document 
+------------------------------
+driver.switchTo().defaultContent();
+
+To reach to parent frame
+-----------------------------------
+driver.switchTo().parentFrame();
+
+========================================
 7.Webtable
 
 8.Actions Class
