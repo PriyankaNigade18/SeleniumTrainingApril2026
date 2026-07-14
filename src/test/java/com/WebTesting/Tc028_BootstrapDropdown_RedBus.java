@@ -19,7 +19,7 @@ public class Tc028_BootstrapDropdown_RedBus {
 	  driver.get("https://www.redbus.in/");
 	  
 	  
-	  driver.findElement(By.id("srcinput")).sendKeys("Pune");
+	  driver.findElement(By.id("srcinput")).sendKeys("Ba");
 	  
 	  Thread.sleep(1500);
 	  
@@ -29,6 +29,11 @@ public class Tc028_BootstrapDropdown_RedBus {
 	  for(WebElement i:allOptions)
 	  {
 		  System.out.println(i.getText());
+		  if(i.getText().contains("Barshi"))
+		  {
+			  i.click();
+			  break;
+		  }
 	  }
 	  
 	  
