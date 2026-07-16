@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-14T13:04:16 IST" name="Default suite" finished-at="2026-07-14T13:04:20 IST" duration-ms="3838">
+  <suite started-at="2026-07-16T12:56:12 IST" name="Default suite" finished-at="2026-07-16T12:56:18 IST" duration-ms="5606">
     <groups>
     </groups>
-    <test started-at="2026-07-14T13:04:16 IST" name="Default test" finished-at="2026-07-14T13:04:20 IST" duration-ms="3838">
-      <class name="com.WebTesting.Tc028_BootstrapDropdown_RedBus">
-        <test-method signature="testDropdown()[pri:0, instance:com.WebTesting.Tc028_BootstrapDropdown_RedBus@4135c3b]" started-at="2026-07-14T13:04:16 IST" name="testDropdown" finished-at="2026-07-14T13:04:20 IST" duration-ms="3786" status="PASS">
+    <test started-at="2026-07-16T12:56:12 IST" name="Default test" finished-at="2026-07-16T12:56:18 IST" duration-ms="5606">
+      <class name="com.WebTesting.Tc045_PaginationWebTable">
+        <test-method signature="testPeginationTable()[pri:0, instance:com.WebTesting.Tc045_PaginationWebTable@2a65fe7c]" started-at="2026-07-16T12:56:12 IST" name="testPeginationTable" finished-at="2026-07-16T12:56:18 IST" duration-ms="5571" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDropdown -->
-      </class> <!-- com.WebTesting.Tc028_BootstrapDropdown_RedBus -->
+        </test-method> <!-- testPeginationTable -->
+      </class> <!-- com.WebTesting.Tc045_PaginationWebTable -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
