@@ -752,7 +752,21 @@ Scenarios
 ===================================
 8.Actions Class
 ============================
+Handling special mouse events are done using the Advanced user interaction API Actions class.
 
+1.RightClick: contextClick()
+2.Double click: doubleClick()
+3.Mouse over: moveToElement()
+4.Drag and drop: clickAndHold()+MoveToElement()+Release()/dragAndDrop(src,dest)
+5.resize
+6.slider
+7.tooltip
+Note:
+When you are performing single action then use perform() 
+and when you are performing multiple actions then use build().perform()
+
+
+==========================================
 9.Capabilities
 
 10.Waits in Selenium

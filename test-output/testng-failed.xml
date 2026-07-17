@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.Tc042_FrameAutomation">
+      <class name="com.WebTesting.Tc049_DragAndDropAction">
         <methods>
-          <include name="testFrame"/>
+          <include name="testDragAndDrop"/>
         </methods>
-      </class> <!-- com.WebTesting.Tc042_FrameAutomation -->
+      </class> <!-- com.WebTesting.Tc049_DragAndDropAction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
