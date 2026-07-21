@@ -768,8 +768,20 @@ and when you are performing multiple actions then use build().perform()
 
 ==========================================
 9.Capabilities
+=======================
+Capabilities are options that you can use to customize and configure a every dirver/browser session. 
+In Selenium 4 for every browser they have given us Classes
+Chrome====>ChromeOptions
+edge======>EdgeOptions
+firefox===>FirefoxOptions class
+
+-run test case in headless mode(Without any UI we can run test: example: REgression testing)
+-To disable notification
+-To run test in incongnio window
+-To customize properties:start browser in maximize screen
 
 10.Waits in Selenium
+==================================
 
 11.Special Scenarios
 ------------------------

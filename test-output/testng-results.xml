@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-17T12:55:30 IST" name="Default suite" finished-at="2026-07-17T12:55:32 IST" duration-ms="1898">
+  <suite started-at="2026-07-21T12:56:34 IST" name="Default suite" finished-at="2026-07-21T12:56:38 IST" duration-ms="3459">
     <groups>
     </groups>
-    <test started-at="2026-07-17T12:55:30 IST" name="Default test" finished-at="2026-07-17T12:55:32 IST" duration-ms="1898">
-      <class name="com.WebTesting.Tc049_DragAndDropAction">
-        <test-method signature="testDragAndDrop()[pri:0, instance:com.WebTesting.Tc049_DragAndDropAction@2a65fe7c]" started-at="2026-07-17T12:55:30 IST" name="testDragAndDrop" finished-at="2026-07-17T12:55:32 IST" duration-ms="1863" status="PASS">
+    <test started-at="2026-07-21T12:56:34 IST" name="Default test" finished-at="2026-07-21T12:56:38 IST" duration-ms="3459">
+      <class name="com.WebTesting.Tc054_StartMaximizeBrowser">
+        <test-method signature="testMaximizeCapability()[pri:0, instance:com.WebTesting.Tc054_StartMaximizeBrowser@34a3d150]" started-at="2026-07-21T12:56:34 IST" name="testMaximizeCapability" finished-at="2026-07-21T12:56:38 IST" duration-ms="3406" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDragAndDrop -->
-      </class> <!-- com.WebTesting.Tc049_DragAndDropAction -->
+        </test-method> <!-- testMaximizeCapability -->
+      </class> <!-- com.WebTesting.Tc054_StartMaximizeBrowser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
