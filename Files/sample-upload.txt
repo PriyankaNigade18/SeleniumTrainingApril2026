@@ -1,0 +1,2 @@
+This is a sample file used by Chapter 10 - File Upload hands-on exercise.
+It is uploaded via the OrangeHRM demo "Data Import" screen in the PIM > Configuration flow.

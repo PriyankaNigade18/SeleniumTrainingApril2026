@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.Tc051_ToolTipAutomation">
+      <class name="com.WebTesting.Tc060_ExplicitWaitUsingWebDriverWaitDemo1">
         <methods>
-          <include name="testToolTip"/>
+          <include name="testExplicitWait"/>
         </methods>
-      </class> <!-- com.WebTesting.Tc051_ToolTipAutomation -->
+      </class> <!-- com.WebTesting.Tc060_ExplicitWaitUsingWebDriverWaitDemo1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

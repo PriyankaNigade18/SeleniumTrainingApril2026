@@ -775,19 +775,52 @@ Chrome====>ChromeOptions
 edge======>EdgeOptions
 firefox===>FirefoxOptions class
 
--run test case in headless mode(Without any UI we can run test: example: REgression testing)
--To disable notification
--To run test in incongnio window
+-run test case in headless mode(Without any UI we can run test: example: REgression testing):"--headless"
+-To disable notification: --disable-notifications
+-To run test in incongnio window: 	--incognito
 -To customize properties:start browser in maximize screen
 
 10.Waits in Selenium
 ==================================
+synchronization Issue
+---------------------------
+Time mapping issue between application and tool is synchronization issue
+
+Selenium handle this using Dynamic Waits
+
+Types
+-------------
+1.Implicit Wait
+-------------------
+- Implicit wait is Global wait as it is applicable for entire script/each element
+- Implicit wait you can immediately after driver session 
+- If implicit wait is set to 10sec and element found in 6sec then remaining 4sec script will continue with element
+- Default timeout for Implicit wait is 0sec
+SyntaX:
+============
+driver.manage().timeouts().implcitlyWait(Duration.ofSeconds(10));
+
+
+2.Explicit Wait
+------------------
+- Explicit wait it is applicable for single weblement
+- Explicit wait we can add based element conditions
+			
+Two ways to achieve explicit wait in Selenium
+--------------------------
+1.WebDriverWait class
+2.FluentWait class
+
+WebDriverWait extends FluentWait implements Wait(I)
 
 11.Special Scenarios
 ------------------------
 Shadow dom automation
 SVG automation
 Broken link
+File upload
+File download: Capabilities
+
 
 TestNG framework
 --------------------
