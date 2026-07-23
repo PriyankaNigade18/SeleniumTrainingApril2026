@@ -812,13 +812,58 @@ Two ways to achieve explicit wait in Selenium
 2.FluentWait class
 
 WebDriverWait extends FluentWait implements Wait(I)
-
-11.Special Scenarios
+==========================================================
+Special Scenarios
 ------------------------
-Shadow dom automation
 SVG automation
-Broken link
+---------------------
+SVG (Scalable Vector Graphics) is an XML-based format used to define vector graphics on the web. 
+
+SVG element you can automate using xpath
+
+Syntax:
+============
+//*[name()='svg']
+OR
+//*[local-name()='svg']
+
+==================================================
 File upload
+--------------------
+there should be type=file attribute present inside dom
+
+1.Using sendkeys
+2.Robot class(Java)
+-------------------------
+
+
+Shadow dom automation
+----------------------------
+Shadow DOM ele
+========================
+what is Shadow DOM?
+----------------------
+Whenever DOM is loaded inside another DOM is called Shadow DOM
+
+Logic
+----------
+main document-->shadow host-->shadow root-->shadow ele
+
+
+Which element we can called as shadow element?
+----------------------------------------
+if element is designed with #shadow-root(open) then that element is shadow ele
+
+Parent tag/element for shadow element is shadow root
+Parent tag/element for shadow root is shadow host
+
+Shadow dom elements we can automate only using cssSelector
+
+If element design with #shadow-root(closed) we can not automate this element
+
+============================================================================
+Broken link
+
 File download: Capabilities
 
 

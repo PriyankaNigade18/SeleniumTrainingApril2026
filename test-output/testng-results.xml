@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-22T13:09:44 IST" name="Default suite" finished-at="2026-07-22T13:09:46 IST" duration-ms="2814">
+  <suite started-at="2026-07-23T13:07:25 IST" name="Default suite" finished-at="2026-07-23T13:07:31 IST" duration-ms="6084">
     <groups>
     </groups>
-    <test started-at="2026-07-22T13:09:44 IST" name="Default test" finished-at="2026-07-22T13:09:46 IST" duration-ms="2814">
-      <class name="com.WebTesting.Tc060_ExplicitWaitUsingWebDriverWaitDemo1">
-        <test-method signature="testExplicitWait()[pri:0, instance:com.WebTesting.Tc060_ExplicitWaitUsingWebDriverWaitDemo1@34a3d150]" started-at="2026-07-22T13:09:44 IST" name="testExplicitWait" finished-at="2026-07-22T13:09:46 IST" duration-ms="2778" status="PASS">
+    <test started-at="2026-07-23T13:07:25 IST" name="Default test" finished-at="2026-07-23T13:07:31 IST" duration-ms="6084">
+      <class name="com.WebTesting.Tc065_MultipleFileUpload">
+        <test-method signature="testMultipleFileUpload()[pri:0, instance:com.WebTesting.Tc065_MultipleFileUpload@34a3d150]" started-at="2026-07-23T13:07:25 IST" name="testMultipleFileUpload" finished-at="2026-07-23T13:07:31 IST" duration-ms="6039" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testExplicitWait -->
-      </class> <!-- com.WebTesting.Tc060_ExplicitWaitUsingWebDriverWaitDemo1 -->
+        </test-method> <!-- testMultipleFileUpload -->
+      </class> <!-- com.WebTesting.Tc065_MultipleFileUpload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
