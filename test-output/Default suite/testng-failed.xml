@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.Tc065_MultipleFileUpload">
+      <class name="com.WebTesting.Tc068_BrokenLinkAutomation">
         <methods>
-          <include name="testMultipleFileUpload"/>
+          <include name="testLink"/>
         </methods>
-      </class> <!-- com.WebTesting.Tc065_MultipleFileUpload -->
+      </class> <!-- com.WebTesting.Tc068_BrokenLinkAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

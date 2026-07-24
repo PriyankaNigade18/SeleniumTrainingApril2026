@@ -835,6 +835,10 @@ there should be type=file attribute present inside dom
 1.Using sendkeys
 2.Robot class(Java)
 -------------------------
+Clipboard (ctrl+c)
+============
+StringSelection sc=new StringSelection("file path");
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(sc,null);
 
 
 Shadow dom automation
@@ -863,6 +867,22 @@ If element design with #shadow-root(closed) we can not automate this element
 
 ============================================================================
 Broken link
+=======================
+Broken links
+-----------------------
+<a href="url">link</a>
+
+
+
+How to identify broken link
+-------------------------------
+the link status code if it is 400 and greater than 400 is broken
+
+If link contains href attribute value as null or empty then such link we can not automate
+
+1.link should have href attribute and it should not empty or null
+2.only valid link request we can send to the server
+3.get status code from server and validate it
 
 File download: Capabilities
 

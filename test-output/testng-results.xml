@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-23T13:07:25 IST" name="Default suite" finished-at="2026-07-23T13:07:31 IST" duration-ms="6084">
+  <suite started-at="2026-07-24T13:33:12 IST" name="Default suite" finished-at="2026-07-24T13:33:41 IST" duration-ms="29448">
     <groups>
     </groups>
-    <test started-at="2026-07-23T13:07:25 IST" name="Default test" finished-at="2026-07-23T13:07:31 IST" duration-ms="6084">
-      <class name="com.WebTesting.Tc065_MultipleFileUpload">
-        <test-method signature="testMultipleFileUpload()[pri:0, instance:com.WebTesting.Tc065_MultipleFileUpload@34a3d150]" started-at="2026-07-23T13:07:25 IST" name="testMultipleFileUpload" finished-at="2026-07-23T13:07:31 IST" duration-ms="6039" status="PASS">
+    <test started-at="2026-07-24T13:33:12 IST" name="Default test" finished-at="2026-07-24T13:33:41 IST" duration-ms="29448">
+      <class name="com.WebTesting.Tc068_BrokenLinkAutomation">
+        <test-method signature="testLink()[pri:0, instance:com.WebTesting.Tc068_BrokenLinkAutomation@2a65fe7c]" started-at="2026-07-24T13:33:12 IST" name="testLink" finished-at="2026-07-24T13:33:41 IST" duration-ms="29405" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMultipleFileUpload -->
-      </class> <!-- com.WebTesting.Tc065_MultipleFileUpload -->
+        </test-method> <!-- testLink -->
+      </class> <!-- com.WebTesting.Tc068_BrokenLinkAutomation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
