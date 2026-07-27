@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.Tc068_BrokenLinkAutomation">
+      <class name="com.TestNG.Tc072_TimeoutArgument">
         <methods>
-          <include name="testLink"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.WebTesting.Tc068_BrokenLinkAutomation -->
+      </class> <!-- com.TestNG.Tc072_TimeoutArgument -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

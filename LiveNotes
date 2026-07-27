@@ -889,6 +889,59 @@ File download: Capabilities
 
 TestNG framework
 --------------------
+1.priority attribute
+=========================
+To run test cases in expected sequence we use priority attaribute
+
+- By default test case executing in alphabetical order
+- If two test have same priority number then those test executes in alphabetical order
+- If priority is added -1,0 and 1 then test will follow same sequence
+
+2.description
+=======================
+To attached description of test case we use description argument
+
+3.invocationCount
+=========================
+To run test case number of times we use InvocationCount for test
+default is 1
+
+
+4.timeOuts
+==============
+The maximum number of milliseconds this test should take. 
+If it hasn't returned after thistime, it will be marked as a FAIL.
+
+Add timeout in millisecond
+timeOut=8000
+
+
+How to create any testNG suite?
+======================================
+Using testng.xml file we can create suite(collection of test cases)
+
+
+5.To disable any test case from current execution 
+===================================================
+- 1.Using argument enabled=false
+- 2.Using testng.xml file by excluding method
+
+
+Assertion
+============
+
+
+6.dependsOnMethod
+
+
+7.Grouping  in Test
+
+
+
+
+
+
+
 
 
 
