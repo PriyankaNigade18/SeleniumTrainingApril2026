@@ -926,16 +926,149 @@ Using testng.xml file we can create suite(collection of test cases)
 - 1.Using argument enabled=false
 - 2.Using testng.xml file by excluding method
 
+		<class name="com.TestNG.Tc073_DisableTestCase">
+      <methods>
+      <exclude name="searchProductTest"></exclude>
+      </methods>
+      </class>
 
-Assertion
-============
 
 
 6.dependsOnMethod
+----------------------
+To provide dependency in between methods we use dependsOnMethod
 
 
 7.Grouping  in Test
+-----------------------------
+Using xml file we can execute specific group based test case
+1.add groups argumentis test case 
+2.create xml file
+<suite name="Suite">
+<groups>
+<run>
+<include name="SmokeTest"></include>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.TestNG.Tc074_GroupingOfTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+3. run test from xml file
 
+
+Assertions
+---------------
+-To validate current status of application we perform assertion
+-Assertions are used to verify whether the actual result matches the expected result. 
+-If the assertion fails, the test may stop or continue depending on the assertion type.
+
+Selenium support two types of assertion
+
+1.Hard Assertion
+---------------------
+-A Hard Assertion immediately stops the execution of the test when an assertion fails.
+-Any statements after the failed assertion are not executed.
+-Hard Assertion we can implement using Assert class
+
+2.Soft Assertion
+-------------------------
+-A Soft Assertion allows the test execution to continue even if an assertion fails.
+-All assertion failures are collected and reported at the end using assertAll().
+-Soft Assertion we can implement using SoftAssert class
+===============================================================================
+
+TestNG XML File (testng.xml)
+==============================================
+-The testng.xml file is a configuration file in TestNG used to control how your test cases
+are executed. 
+-Instead of running individual test classes manually, you can use testng.xml 
+to execute multiple test classes, create test suites, run tests in parallel,
+pass parameters, and much more.
+ 
+With testng.xml:
+==========================
+Execute multiple test classes at once.
+Group test cases.
+Control execution order.
+Run tests in parallel.
+Pass parameters.
+Include or exclude specific tests.
+Configure listeners.
+
+==========================================================
+Annotations(Rules)
+===================
+Precoditions
+@BeforeMethod, @BeforeClass ,@BeforeTest , @BeforeSuite
+
+Postcoditions
+@AfterMethod, @AfterClass ,@AfterTest , @AfterSuite
+============================================================
+Test Data
+=====================
+How to read test data
+===========================
+1.Using xml file
+----------------------
+We can maintain data in xml file and we can read it in test case
+for this we use @Parameters annotation
+
+Cross browser testing: execute test on multiple browser
+
+Parallel testing
+===================
+execute test on multiple browser at a time/parllelly
+
+Parallel testing possible at
+1.method level
+2.class level
+3.test level
+
+<suite name="Suite" parallel="tests">
+
+2.Using properties file
+==============================
+Properties File it maintain data in the format of key and values pair
+File data you can read with Properties class 
+
+MsExcel file
+====================
+- To read data from any Excel file/doc we use External library
+https://poi.apache.org/
+- Apache POI :  the Java API for Microsoft Documents
+In short, you can read and write MS Excel files using Java.
+-As we are working with Maven project so add dependencies
+- create excel file maintain data and read data
+DataFile.xlsx
+
+
+Apache POI we have classes 
+----------------------------
+XSSFWorkbook
+XSSFSheet
+XSSFRow
+XSSFCell
+
+Methods
+----------------
+getStringCellValue()
+getBooleanCellValue()
+getNumericCellValue()
+getDateCellValue()
+
+
+Data driven Testing approach
+===================================
+Execute same set of actions with multiple data, multiple time
+In Selenium using TestNG framework we use @DataProvider annotation to achieve data driven testing
+@Test(dataProvider ="myArrayData",dataProviderClass = CustomDataSet.class)
+  
+1.Array
+-------------------
+2.Excel file
 
 
 
