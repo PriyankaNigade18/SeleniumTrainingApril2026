@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Tc076_DependsOnMethodArgument">
+      <class name="com.TestNG.Annotations.Tc078_AnnotationRealScenario">
         <methods>
-          <include name="logoutTest"/>
-          <include name="loginTest"/>
-          <include name="registerTest"/>
+          <include name="testCRMLogin"/>
+          <include name="signOut"/>
+          <include name="testSignIn"/>
         </methods>
-      </class> <!-- com.TestNG.Tc076_DependsOnMethodArgument -->
+      </class> <!-- com.TestNG.Annotations.Tc078_AnnotationRealScenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

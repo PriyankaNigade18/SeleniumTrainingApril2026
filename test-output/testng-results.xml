@@ -1,98 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-28T13:06:10 IST" name="Default suite" finished-at="2026-07-28T13:06:10 IST" duration-ms="79">
+  <suite started-at="2026-07-29T12:49:15 IST" name="Default suite" finished-at="2026-07-29T12:49:22 IST" duration-ms="7186">
     <groups>
     </groups>
-    <test started-at="2026-07-28T13:06:10 IST" name="Default test" finished-at="2026-07-28T13:06:10 IST" duration-ms="79">
-      <class name="com.TestNG.Tc076_DependsOnMethodArgument">
-        <test-method signature="registerTest()[pri:1, instance:com.TestNG.Tc076_DependsOnMethodArgument@38d8f54a]" started-at="2026-07-28T13:06:10 IST" name="registerTest" finished-at="2026-07-28T13:06:10 IST" duration-ms="9" status="PASS">
+    <test started-at="2026-07-29T12:49:15 IST" name="Default test" finished-at="2026-07-29T12:49:22 IST" duration-ms="7186">
+      <class name="com.TestNG.Annotations.Tc078_AnnotationRealScenario">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:15 IST" name="setUp" finished-at="2026-07-29T12:49:19 IST" duration-ms="3946" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTest -->
-        <test-method signature="loginTest()[pri:2, instance:com.TestNG.Tc076_DependsOnMethodArgument@38d8f54a]" started-at="2026-07-28T13:06:10 IST" name="loginTest" finished-at="2026-07-28T13:06:10 IST" depends-on-methods="com.TestNG.Tc076_DependsOnMethodArgument.registerTest" duration-ms="6" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1079)
-at org.testng.Assert.assertEquals(Assert.java:1043)
-at org.testng.Assert.assertEquals(Assert.java:1089)
-at com.TestNG.Tc076_DependsOnMethodArgument.loginTest(Tc076_DependsOnMethodArgument.java:20)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:19 IST" name="getPageTitle" finished-at="2026-07-29T12:49:19 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="logoutTest()[pri:3, instance:com.TestNG.Tc076_DependsOnMethodArgument@38d8f54a]" started-at="2026-07-28T13:06:10 IST" name="logoutTest" finished-at="2026-07-28T13:06:10 IST" depends-on-methods="com.TestNG.Tc076_DependsOnMethodArgument.loginTest" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method com.TestNG.Tc076_DependsOnMethodArgument.logoutTest() on instance com.TestNG.Tc076_DependsOnMethodArgument@38d8f54a depends on not successfully finished methods 
-[com.TestNG.Tc076_DependsOnMethodArgument.loginTest() on instance com.TestNG.Tc076_DependsOnMethodArgument@38d8f54a]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method com.TestNG.Tc076_DependsOnMethodArgument.logoutTest() on instance com.TestNG.Tc076_DependsOnMethodArgument@38d8f54a depends on not successfully finished methods 
-[com.TestNG.Tc076_DependsOnMethodArgument.loginTest() on instance com.TestNG.Tc076_DependsOnMethodArgument@38d8f54a]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- getPageTitle -->
+        <test-method signature="testSignIn()[pri:1, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:19 IST" name="testSignIn" finished-at="2026-07-29T12:49:20 IST" duration-ms="1087" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutTest -->
-      </class> <!-- com.TestNG.Tc076_DependsOnMethodArgument -->
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="getPageUrl()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:20 IST" name="getPageUrl" finished-at="2026-07-29T12:49:20 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageUrl -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:20 IST" name="getPageTitle" finished-at="2026-07-29T12:49:20 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method signature="testCRMLogin()[pri:2, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:20 IST" name="testCRMLogin" finished-at="2026-07-29T12:49:21 IST" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCRMLogin -->
+        <test-method is-config="true" signature="getPageUrl()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:21 IST" name="getPageUrl" finished-at="2026-07-29T12:49:22 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageUrl -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:22 IST" name="getPageTitle" finished-at="2026-07-29T12:49:22 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method signature="signOut()[pri:3, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:22 IST" name="signOut" finished-at="2026-07-29T12:49:22 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="getPageUrl()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:22 IST" name="getPageUrl" finished-at="2026-07-29T12:49:22 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:22 IST" name="tearDown" finished-at="2026-07-29T12:49:22 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.Annotations.Tc078_AnnotationRealScenario -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
