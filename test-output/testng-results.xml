@@ -1,57 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-29T12:49:15 IST" name="Default suite" finished-at="2026-07-29T12:49:22 IST" duration-ms="7186">
+  <suite started-at="2026-07-31T13:09:53 IST" name="Default suite" finished-at="2026-07-31T13:10:00 IST" duration-ms="7433">
     <groups>
     </groups>
-    <test started-at="2026-07-29T12:49:15 IST" name="Default test" finished-at="2026-07-29T12:49:22 IST" duration-ms="7186">
-      <class name="com.TestNG.Annotations.Tc078_AnnotationRealScenario">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:15 IST" name="setUp" finished-at="2026-07-29T12:49:19 IST" duration-ms="3946" status="PASS">
+    <test started-at="2026-07-31T13:09:53 IST" name="Default test" finished-at="2026-07-31T13:10:00 IST" duration-ms="7433">
+      <class name="com.TestNG.DataPassing.Tc085_DataPassingUsingPropertiesFile">
+        <test-method signature="testPropertiesData()[pri:0, instance:com.TestNG.DataPassing.Tc085_DataPassingUsingPropertiesFile@689604d9]" started-at="2026-07-31T13:09:53 IST" name="testPropertiesData" finished-at="2026-07-31T13:10:00 IST" duration-ms="7396" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:19 IST" name="getPageTitle" finished-at="2026-07-29T12:49:19 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPageTitle -->
-        <test-method signature="testSignIn()[pri:1, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:19 IST" name="testSignIn" finished-at="2026-07-29T12:49:20 IST" duration-ms="1087" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSignIn -->
-        <test-method is-config="true" signature="getPageUrl()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:20 IST" name="getPageUrl" finished-at="2026-07-29T12:49:20 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPageUrl -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:20 IST" name="getPageTitle" finished-at="2026-07-29T12:49:20 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPageTitle -->
-        <test-method signature="testCRMLogin()[pri:2, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:20 IST" name="testCRMLogin" finished-at="2026-07-29T12:49:21 IST" duration-ms="606" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCRMLogin -->
-        <test-method is-config="true" signature="getPageUrl()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:21 IST" name="getPageUrl" finished-at="2026-07-29T12:49:22 IST" duration-ms="703" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPageUrl -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:22 IST" name="getPageTitle" finished-at="2026-07-29T12:49:22 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPageTitle -->
-        <test-method signature="signOut()[pri:3, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:22 IST" name="signOut" finished-at="2026-07-29T12:49:22 IST" duration-ms="508" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="getPageUrl()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:22 IST" name="getPageUrl" finished-at="2026-07-29T12:49:22 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPageUrl -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Annotations.Tc078_AnnotationRealScenario@22555ebf]" started-at="2026-07-29T12:49:22 IST" name="tearDown" finished-at="2026-07-29T12:49:22 IST" duration-ms="222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TestNG.Annotations.Tc078_AnnotationRealScenario -->
+        </test-method> <!-- testPropertiesData -->
+      </class> <!-- com.TestNG.DataPassing.Tc085_DataPassingUsingPropertiesFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

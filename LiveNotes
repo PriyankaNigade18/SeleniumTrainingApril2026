@@ -1034,6 +1034,9 @@ Parallel testing possible at
 Properties File it maintain data in the format of key and values pair
 File data you can read with Properties class 
 
+
+
+
 MsExcel file
 ====================
 - To read data from any Excel file/doc we use External library
@@ -1069,12 +1072,6 @@ In Selenium using TestNG framework we use @DataProvider annotation to achieve da
 1.Array
 -------------------
 2.Excel file
-
-
-
-
-
-
 
 
 

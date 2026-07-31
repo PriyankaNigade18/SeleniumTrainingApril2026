@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Annotations.Tc078_AnnotationRealScenario">
+      <class name="com.TestNG.DataPassing.Tc079_XmlDataPassing">
         <methods>
-          <include name="testCRMLogin"/>
-          <include name="signOut"/>
-          <include name="testSignIn"/>
+          <include name="testLogin"/>
         </methods>
-      </class> <!-- com.TestNG.Annotations.Tc078_AnnotationRealScenario -->
+      </class> <!-- com.TestNG.DataPassing.Tc079_XmlDataPassing -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
