@@ -1062,7 +1062,7 @@ getBooleanCellValue()
 getNumericCellValue()
 getDateCellValue()
 
-
+========================================================
 Data driven Testing approach
 ===================================
 Execute same set of actions with multiple data, multiple time
@@ -1072,7 +1072,6 @@ In Selenium using TestNG framework we use @DataProvider annotation to achieve da
 1.Array
 -------------------
 2.Excel file
-
 
 
 Hybrid Framework

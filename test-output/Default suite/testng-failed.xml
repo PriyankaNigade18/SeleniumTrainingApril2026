@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.DataPassing.Tc079_XmlDataPassing">
+      <class name="com.TestNG.DataPassing.Tc086_ExcelCompleteFileReading">
         <methods>
-          <include name="testLogin"/>
+          <include name="fileReading"/>
         </methods>
-      </class> <!-- com.TestNG.DataPassing.Tc079_XmlDataPassing -->
+      </class> <!-- com.TestNG.DataPassing.Tc086_ExcelCompleteFileReading -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

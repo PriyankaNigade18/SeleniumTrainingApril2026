@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-31T13:09:53 IST" name="Default suite" finished-at="2026-07-31T13:10:00 IST" duration-ms="7433">
+  <suite started-at="2026-08-03T12:49:35 IST" name="Default suite" finished-at="2026-08-03T12:49:36 IST" duration-ms="575">
     <groups>
     </groups>
-    <test started-at="2026-07-31T13:09:53 IST" name="Default test" finished-at="2026-07-31T13:10:00 IST" duration-ms="7433">
-      <class name="com.TestNG.DataPassing.Tc085_DataPassingUsingPropertiesFile">
-        <test-method signature="testPropertiesData()[pri:0, instance:com.TestNG.DataPassing.Tc085_DataPassingUsingPropertiesFile@689604d9]" started-at="2026-07-31T13:09:53 IST" name="testPropertiesData" finished-at="2026-07-31T13:10:00 IST" duration-ms="7396" status="PASS">
+    <test started-at="2026-08-03T12:49:35 IST" name="Default test" finished-at="2026-08-03T12:49:36 IST" duration-ms="575">
+      <class name="com.TestNG.DataPassing.Tc086_ExcelCompleteFileReading">
+        <test-method signature="fileReading()[pri:0, instance:com.TestNG.DataPassing.Tc086_ExcelCompleteFileReading@128d2484]" started-at="2026-08-03T12:49:35 IST" name="fileReading" finished-at="2026-08-03T12:49:36 IST" duration-ms="534" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPropertiesData -->
-      </class> <!-- com.TestNG.DataPassing.Tc085_DataPassingUsingPropertiesFile -->
+        </test-method> <!-- fileReading -->
+      </class> <!-- com.TestNG.DataPassing.Tc086_ExcelCompleteFileReading -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
