@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-03T12:49:35 IST" name="Default suite" finished-at="2026-08-03T12:49:36 IST" duration-ms="575">
+  <suite started-at="2026-08-07T13:19:33 IST" name="Default suite" finished-at="2026-08-07T13:19:37 IST" duration-ms="3400">
     <groups>
     </groups>
-    <test started-at="2026-08-03T12:49:35 IST" name="Default test" finished-at="2026-08-03T12:49:36 IST" duration-ms="575">
-      <class name="com.TestNG.DataPassing.Tc086_ExcelCompleteFileReading">
-        <test-method signature="fileReading()[pri:0, instance:com.TestNG.DataPassing.Tc086_ExcelCompleteFileReading@128d2484]" started-at="2026-08-03T12:49:35 IST" name="fileReading" finished-at="2026-08-03T12:49:36 IST" duration-ms="534" status="PASS">
+    <test started-at="2026-08-07T13:19:33 IST" name="Default test" finished-at="2026-08-07T13:19:37 IST" duration-ms="3400">
+      <class name="com.TestNG.PageObjectModel.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNG.PageObjectModel.LoginPageTest@1165b38]" started-at="2026-08-07T13:19:33 IST" name="setup" finished-at="2026-08-07T13:19:36 IST" duration-ms="2474" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fileReading -->
-      </class> <!-- com.TestNG.DataPassing.Tc086_ExcelCompleteFileReading -->
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUrl()[pri:1, instance:com.TestNG.PageObjectModel.LoginPageTest@1165b38]" started-at="2026-08-07T13:19:36 IST" name="verifyUrl" finished-at="2026-08-07T13:19:36 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method signature="verifyTitle()[pri:2, instance:com.TestNG.PageObjectModel.LoginPageTest@1165b38]" started-at="2026-08-07T13:19:36 IST" name="verifyTitle" finished-at="2026-08-07T13:19:36 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="validateLogin()[pri:3, instance:com.TestNG.PageObjectModel.LoginPageTest@1165b38]" started-at="2026-08-07T13:19:36 IST" name="validateLogin" finished-at="2026-08-07T13:19:37 IST" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- com.TestNG.PageObjectModel.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

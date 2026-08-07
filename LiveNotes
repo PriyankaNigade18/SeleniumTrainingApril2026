@@ -1035,8 +1035,6 @@ Properties File it maintain data in the format of key and values pair
 File data you can read with Properties class 
 
 
-
-
 MsExcel file
 ====================
 - To read data from any Excel file/doc we use External library
@@ -1073,9 +1071,37 @@ In Selenium using TestNG framework we use @DataProvider annotation to achieve da
 -------------------
 2.Excel file
 
-
+=================================================
 Hybrid Framework
 -----------------------
+Phase1: Framework Design
+-----------------------------
+1.Page Object model(design pattern)
+-----------------------------
+	1.By locator
+	2.PageFactory Class
+	
+	
+2.BaseClass
+3.Test Cases
+4.TestData
+5.Utilities
+
+
+Phase2:Execution
+-------------------------------
+1.Using testng.xml file
+2.Using maven
+	using pom.xml
+	using platform
+3.Usig CICD
+Jenkins
+
+
+code===>share to github===>Jenkins===>execute
+
+
+
 
 
 Devops
