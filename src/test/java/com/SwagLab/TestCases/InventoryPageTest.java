@@ -1,6 +1,9 @@
 package com.SwagLab.TestCases;
 
 import org.testng.annotations.Test;
+
+import com.SwagLab.Utility.PropertiesUtil;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.AssertJUnit;
 import org.testng.Assert;
@@ -12,7 +15,8 @@ public class InventoryPageTest extends BaseClass
 	@BeforeClass
 	public void pageSetUp()
 	{
-		inventoryPage=loginPage.doLogin("standard_user","secret_sauce");
+		inventoryPage=loginPage.doLogin(PropertiesUtil.getProperties("un"),PropertiesUtil.getProperties("psw"));
+
 	}
 	
   @Test(priority=1)
@@ -36,7 +40,7 @@ public class InventoryPageTest extends BaseClass
   @Test(priority=3)
   public void validatAddToCartFeature() 
   {
-	  inventoryPage.addProductIntoCart("Sauce Labs Bolt T-Shirt");
+	  inventoryPage.addProductIntoCart(PropertiesUtil.getProperties("pname1"));
 	 
   }
   

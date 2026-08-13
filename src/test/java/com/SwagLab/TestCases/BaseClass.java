@@ -12,6 +12,7 @@ import org.testng.annotations.Parameters;
 
 
 import com.SwagLab.Pages.*;
+import com.SwagLab.Utility.PropertiesUtil;
 
 public class BaseClass 
 {
@@ -20,6 +21,9 @@ public class BaseClass
 	public LoginPage loginPage;
 	public InventoryPage inventoryPage;
 	public  CartPage cartPage;
+	public CheckoutPage checkoutPage;
+	public OverviewPage overviewPage;
+	public PropertiesUtil prop;
 	
 	@Parameters({"bname"})
 	@BeforeClass
@@ -36,10 +40,13 @@ public class BaseClass
 		
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://www.saucedemo.com/");
+		
+		driver.get(PropertiesUtil.getProperties("url"));
 		loginPage=new LoginPage(driver);
 		inventoryPage=new InventoryPage(driver);
 		cartPage=new CartPage(driver);
+		checkoutPage=new CheckoutPage(driver);
+		overviewPage=new OverviewPage(driver);
 	}
 	
 	@AfterClass

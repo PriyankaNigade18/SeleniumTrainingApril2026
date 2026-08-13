@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="bname" value="edge"/>
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="chrome(failed)">
+    <parameter name="bname" value="chrome"/>
     <classes>
       <class name="com.SwagLab.TestCases.CartPageTest">
         <methods>
+          <include name="pageSetUp"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="verifyCartPageLaunch"/>
+          <include name="validateLauchOfCheckout"/>
+          <include name="validateContinueShopping"/>
+          <include name="verifyCartProduct"/>
+          <include name="validateProductRemove"/>
         </methods>
       </class> <!-- com.SwagLab.TestCases.CartPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

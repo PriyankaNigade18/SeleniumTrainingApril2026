@@ -59,10 +59,11 @@ public class CartPage
 	}
 	
 	
-	public void launchCheckoutPage()
+	public CheckoutPage launchCheckoutPage()
 	{
 		checkoutBtn.click();
-		//return 
+		//navigating to checkout page
+		return new CheckoutPage(driver);
 	}
 	
 	

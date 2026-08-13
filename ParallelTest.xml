@@ -6,6 +6,8 @@
     <classes>
     	<class name="com.SwagLab.TestCases.LoginPageTest"/>
       	<class name="com.SwagLab.TestCases.InventoryPageTest"/>
+      	<class name="com.SwagLab.TestCases.CartPageTest"/>
+      	<class name="com.SwagLab.TestCases.CheckoutPageTest"/>
     </classes>
   </test> <!-- Test -->
   
@@ -15,6 +17,8 @@
     <classes>
     	<class name="com.SwagLab.TestCases.LoginPageTest"/>
       	<class name="com.SwagLab.TestCases.InventoryPageTest"/>
+      	<class name="com.SwagLab.TestCases.CartPageTest"/>
+      	<class name="com.SwagLab.TestCases.CheckoutPageTest"/>
     </classes>
   </test> <!-- Test -->
   
@@ -25,6 +29,8 @@
     <classes>
     	<class name="com.SwagLab.TestCases.LoginPageTest"/>
       	<class name="com.SwagLab.TestCases.InventoryPageTest"/>
+      	<class name="com.SwagLab.TestCases.CartPageTest"/>
+      	<class name="com.SwagLab.TestCases.CheckoutPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
