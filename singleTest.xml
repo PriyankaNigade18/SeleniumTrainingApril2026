@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
   <parameter name="bname" value="edge"></parameter>
     <classes>
-      <class name="com.SwagLab.TestCases.CheckoutPageTest"/>
+      <class name="com.SwagLab.TestCases.OverviewPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

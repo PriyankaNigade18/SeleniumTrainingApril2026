@@ -12,6 +12,7 @@ import org.testng.annotations.Parameters;
 
 
 import com.SwagLab.Pages.*;
+import com.SwagLab.Utility.BrowserProvider;
 import com.SwagLab.Utility.PropertiesUtil;
 
 public class BaseClass 
@@ -28,7 +29,7 @@ public class BaseClass
 	@Parameters({"bname"})
 	@BeforeClass
 	public void setUp(String bname)
-	{
+	{/*
 		//driver=new EdgeDriver();
 		switch(bname)
 		{
@@ -38,7 +39,8 @@ public class BaseClass
 		default:
 			driver=new EdgeDriver();break;
 		
-		}
+		}*/
+		driver=BrowserProvider.setDriver(bname);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		driver.get(PropertiesUtil.getProperties("url"));
