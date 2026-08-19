@@ -1,0 +1,18 @@
+
+
+This is new Cucumber project
+--------------------------------
+1.create local repository
+git init
+
+2.check status
+git status
+
+3.add files to stage
+git add .
+
+4.commit the code (code will pass to local repo (master branch))
+git commit -m "Commit message"
+
+5.push code on remote side
+git push -u origin master
