@@ -1,0 +1,54 @@
+Hybrid Framework
+-----------------------
+Phase1: Framework Design
+-----------------------------
+1.Page Object model(design pattern)
+-----------------------------
+	1.By locator
+	2.PageFactory Class
+2.BaseClass
+3.Test Cases
+4.TestData
+5.Utilities
+
+
+Phase2:Execution
+-------------------------------
+1.Using testng.xml file
+2.Using maven
+	using pom.xml---with goal
+	using platform----with CLI+goal
+	
+3.Usig CICD
+Jenkins
+
+
+Maven Execution
+==================
+1.Add surefire plugin
+2.Add compiler plugin
+3.update project
+4.Install maven in local machine and add path of maven in enviornment variable
+
+Maven Goal
+=============
+validate - validate the project is correct and all necessary information is available
+compile - compile the source code of the project
+test - test the compiled source code using a suitable unit testing framework.
+     These tests should not require the code be packaged or deployed
+package - take the compiled code and package it in its distributable format, such as a JAR.
+verify - run any checks on results of integration tests to ensure quality criteria are met
+install - install the package into the local repository, for use as a dependency in other projects locally
+deploy - done in the build environment, copies the final package to the remote repository for sharing with other developers and projects.
+
+1.clean: help to delete all files from target folder
+2.install: install missing package + test the script
+3.test: test the script
+
+Jenkins setup
+------------------
+
+code===>share to github===>Jenkins===>execute
+
+
+Reports

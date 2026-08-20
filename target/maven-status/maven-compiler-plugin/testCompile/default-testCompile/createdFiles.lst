@@ -9,5 +9,6 @@ com\SwagLab\Pages\LoginPage.class
 com\SwagLab\TestCases\CartPageTest.class
 com\SwagLab\Utility\PropertiesUtil.class
 com\SwagLab\Pages\CheckoutPage.class
+com\SwagLab\Utility\BrowserProvider.class
 com\SwagLab\TestCases\BaseClass.class
 com\SwagLab\TestCases\CheckoutPageTest.class
